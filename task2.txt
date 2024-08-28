@@ -1,0 +1,35 @@
+===================== JS/React====================
+Написать React компонент который примет в качестве props список элементов состоящий из id, name. Компонент должен генерировать первые 10 элементов отсортированные по алфавиту и поле для поиска. Пользователь может ввести текст в input - список должен обновиться и показать все элементы содержащие строку поиска. Можно использовать vuj.js или другой фреймворк если нет опыта с реакт.
+
+const input_items = [
+  { id: 1, name: 'Book' },
+  { id: 2, name: 'Pencil' },
+  { id: 3, name: 'Apple' },
+  { id: 4, name: 'Notebook' },
+  { id: 5, name: 'Pen' },
+  { id: 6, name: 'Banana' },
+  { id: 7, name: 'Eraser' },
+  { id: 8, name: 'Orange' },
+  { id: 9, name: 'Marker' },
+  { id: 10, name: 'Laptop' },
+  ...
+  { id: 1001, name: 'Backpack' },
+  { id: 1002, name: 'Avocado' }
+];
+
+
+Ожидаемый результат
+
+Search: <input>
+<ul>
+  <li>Apple</li>
+  <li>Backpack</li>
+  <li>Book</li>
+  <li>Chair</li>
+  <li>Laptop</li>
+  <li>Notebook</li>
+  <li>Pen</li>
+  <li>Phone</li>
+  <li>Table</li>
+  <li>Watch</li>
+</ul>
